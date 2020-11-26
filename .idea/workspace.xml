@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4a64c74-064a-40ba-8c97-832179247248" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hUp9jIqe8WE8GaUf0qxYROJoLr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4a64c74-064a-40ba-8c97-832179247248" name="Default Changelist" comment="" />
+      <created>1600075377301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600075377301</updated>
+      <workItem from="1600075379274" duration="7000" />
+      <workItem from="1600075396604" duration="7000" />
+      <workItem from="1601295424139" duration="2450000" />
+      <workItem from="1601300764535" duration="2056000" />
+      <workItem from="1601370382633" duration="841000" />
+      <workItem from="1601381668633" duration="39000" />
+      <workItem from="1601999666720" duration="15000" />
+      <workItem from="1601999701198" duration="18000" />
+      <workItem from="1602286875306" duration="40000" />
+      <workItem from="1602288235626" duration="28000" />
+      <workItem from="1603104007769" duration="41000" />
+      <workItem from="1603202864881" duration="58000" />
+      <workItem from="1605559265094" duration="394000" />
+      <workItem from="1605626317780" duration="120000" />
+      <workItem from="1606399613733" duration="452000" />
+      <workItem from="1606400975439" duration="10398000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
