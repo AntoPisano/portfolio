@@ -1,10 +1,19 @@
+$Color1: #2178a3;
+$Color2: #afb6ba;
+
+@font-face {
+    font-family: font1;
+    src: url('font/Montserrat-Regular.ttf');
+}
+
 body {
 	margin: 0;
+    padding: 0;
 	background-color: #F5F5F5;
 }	
 	
 header { 
-	background-color: #2178a3;
+	background-color: $Color1;
 }
 
 ul {
@@ -23,7 +32,7 @@ li {
 	padding-left: 5px;
 	position: relative;
 	left: 10px;
-	color: #afb6ba;
+	color: $Color2;
 	word-spacing: 0;
 }
 
@@ -51,7 +60,7 @@ li {
 	}
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
 	text-align: center;
 	font-size: 55px;
 	font-family: 'Roboto Mono', monospace;
@@ -92,8 +101,7 @@ h3 {
 
 h2 {
 	font-size: 30px;
-	font-family: 'Roboto Mono', monospace;
-	padding-top: 90px;
+	padding-top: 25px;
 }
 
 .aboutme {
@@ -101,8 +109,8 @@ h2 {
 	text-align: justify;
 	width: 80%;
 	font-size: 20px;
-	font-family: 'Roboto Mono', monospace;
 	margin-top: 45px;
+	line-height: 35px;
 }
 	
 .projects {
@@ -115,7 +123,8 @@ h2 {
 	 justify-content: center;
 	 margin-top: 45px;
 	 text-align: center;
-	 font-family: 'Roboto Mono', monospace;
+	 font-family: font1;
+	 margin-bottom: 180px;
 }
  
 @media only screen and (max-width: 1020px) {
@@ -129,7 +138,8 @@ h2 {
 	 justify-content: center;
 	 margin-top: 60px;
 	 text-align: center;
-	 font-family: 'Roboto Mono', monospace;
+	 font-family: font1;
+	 margin-bottom: 180px;
 	}
 }
 
@@ -147,12 +157,12 @@ img:hover {
 
 h4 {
 	text-align: center;
-	font-family: 'Roboto Mono', monospace;
+	font-family: font1;
 }
 
 ul a {
 	text-decoration: none;
-	color: #afb6ba;
+	color: $Color2;
 	border-style: solid;
 	border-radius: 5px;
 	padding:10px;
@@ -160,6 +170,7 @@ ul a {
 
 .contacts {
 	margin-top: 80px;
+    font-family: font1;
 }
 
 .github {
@@ -178,7 +189,7 @@ ul a {
 	text-align: center;
 	color:  #afb6ba;
 	border-radius: 5px;
-	background-color: #2178a3;
+	background-color: $Color1;
 } 
 
 .linkedin {
@@ -207,5 +218,14 @@ a {
 }
 
 footer {
-	height: 340px;
+	height: 270px;
+	background-color: $Color1;
+}
+
+#link-projects {
+	margin-top: 160px;
+}
+
+#about-me {
+	margin-top: 160px;
 }
