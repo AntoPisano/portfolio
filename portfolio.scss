@@ -54,11 +54,30 @@ h3 {
 	font-size: 25px;
 }
 
+.subTitle {
+	position: absolute;
+    top: 185px;
+    left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+    animation: type 7s steps(50, end);
+}
+@keyframes type {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 .mainimg {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 40px;
+	margin-top: 95px;
 	height: 500px;
 	border-radius: 5px;
 }

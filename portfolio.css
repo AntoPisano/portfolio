@@ -59,11 +59,42 @@ h3 {
   font-size: 25px;
 }
 
+.subTitle {
+  position: absolute;
+  top: 185px;
+  left: 50%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 15px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: type 7s steps(50, end);
+          animation: type 7s steps(50, end);
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 .mainimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 95px;
   height: 500px;
   border-radius: 5px;
 }
