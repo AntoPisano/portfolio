@@ -345,4 +345,10 @@ footer {
 #about-me {
   margin-top: 160px;
 }
+
+.copyright {
+  position: absolute;
+  bottom: -100px;
+  left: 20px;
+}
 /*# sourceMappingURL=portfolio.css.map */
